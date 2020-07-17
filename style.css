@@ -1,0 +1,89 @@
+html
+ {
+  scroll-behavior: smooth; 
+}
+body 
+{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-image:url("img/bg.jpg");
+}
+#parallax-image4
+{
+  background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url("img/s7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  margin-bottom: 50px;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.hovereffect img {
+  
+
+  height: 250px;
+  width: 400px; 
+}
+#grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@font-face
+{
+  font-family: Charm-Bold;
+  src:url("font/Charm-Bold.ttf");
+}
+@font-face
+{  
+  font-family: Courgette-Regular; 
+  src:url("font/Courgette-Regular.ttf");
+}
+h2
+{
+  font-family: Charm-Bold;
+}
+p,li,a
+{
+  font-family: Courgette;
+  font-size: 18px;
+}
+
+   h1 {
+    font-family: Charm-Bold;
+    font-size: 25px;
+    color: white;
+}
+}
